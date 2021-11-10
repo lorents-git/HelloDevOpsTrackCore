@@ -10,12 +10,6 @@ namespace CoreTests
         }
 
         [Test]
-        public void DenneFeiler()
-        {
-            Assert.Fail("Helt feil");
-        }
-
-        [Test]
         public void DenneFeilerIkke()
         {
             Assert.Pass("Alt ok");
